@@ -1,0 +1,9 @@
+# IntelliJ IDEA
+.idea/
+page-transition-demo.iml
+
+# npm
+node_modules/
+
+# webpack
+dist/
