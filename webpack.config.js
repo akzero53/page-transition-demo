@@ -16,6 +16,9 @@ module.exports = {
       template: __dirname + '/src/html/index.html',
     }),
   ],
+  module: {
+    rules: [{ test: /\.js|\.jsx$/, exclude: /node_modules/, loader: 'babel-loader' }],
+  },
   devServer: {
     contentBase: 'dist',
     port: 8080,
